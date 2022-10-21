@@ -21,9 +21,9 @@ async function prefetch(){
   <div class="container">
     <h2 v-if = "isLoading">Loading To-Do Lists</h2>
     <template v-if = "!isLoading">
-      <ul>
-        <RouterLink to="/"><li>Todo List</li></RouterLink>
-        <RouterLink to="/new"><li>New Todo</li></RouterLink>
+      <ul class="nav">
+        <RouterLink to="/"><li class="links">Todo List</li></RouterLink>
+        <RouterLink to="/new"><li class="links">New Todo</li></RouterLink>
       </ul>
       <router-view />
     </template>
