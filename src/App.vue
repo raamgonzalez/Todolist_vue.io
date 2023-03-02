@@ -18,12 +18,12 @@ async function prefetch(){
 </script>
 
 <template>
-  <div class="container">
-    <h2 v-if = "isLoading">Loading To-Do Lists</h2>
+  <div class="container bg-yellow-300 rounded-xl p-8 flex flex-col flex-start shadow-xl shadow-slate-900">
+    <h2 v-if = "isLoading" class="font-mono">Loading To-Do Lists</h2>
     <template v-if = "!isLoading">
-      <ul class="nav">
-        <RouterLink to="/"><li class="links">Todo List</li></RouterLink>
-        <RouterLink to="/new"><li class="links">New Todo</li></RouterLink>
+      <ul class="nav flex flex-row justify-between">
+        <RouterLink to="/"><li class="links text-xl font-mono text-center w-28 px-2 py-3 border rounded-lg border-yellow-700 mb-2 shadow-sm shadow-slate-200 hover:scale-105">Todos</li></RouterLink>
+        <RouterLink to="/new"><li class="links text-xl font-mono text-center w-28 px-2 py-3 border rounded-lg border-yellow-700 mb-2 shadow-sm shadow-slate-200 hover:scale-105 ">New Task</li></RouterLink>
       </ul>
       <router-view />
     </template>
@@ -31,5 +31,4 @@ async function prefetch(){
 </template>
 
 <style>
-  @import './assets/base.css';
 </style>

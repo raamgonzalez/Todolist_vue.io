@@ -1,4 +1,4 @@
-html, body { height: 100%; }
+/* html, body { height: 100%; }
 
 body {
   width: 100vw;
@@ -9,12 +9,9 @@ body {
   font-family: Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(320deg, #aaaaaa, #e1e1e1, #fafd77);
-  background-size: 600% 600%;
 
   -webkit-animation: AnimationName 56s ease infinite;
   -moz-animation: AnimationName 56s ease infinite;
-  animation: AnimationName 56s ease infinite;
 }
 
 code {
@@ -74,7 +71,7 @@ button:hover {
 
 /* Heading */
 
-h2,
+/* h2,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
@@ -104,9 +101,8 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+/* label[for='new-task'] {
   display: block;
-  /* margin: 0 0 20px; */
   margin: 0.2rem auto;
 }
 
@@ -121,10 +117,10 @@ input#new-task {
 
 p > button:hover {
   color: #0FC57C;
-}
+} */
 
 /* Task list */
-li {
+/* li {
   overflow: hidden;
   border-bottom: 1px solid #eee;
   padding: 0.7rem 0;
@@ -151,16 +147,16 @@ li >  input[type="text"] {
 
 li > .delete:hover {
   color: #CF2323;
-}
+} */
 
 /* Completed */
-#completed-tasks label {
+/* #completed-tasks label {
   text-decoration: line-through;
   color: #888;
-}
+} */
 
 /* Edit Task */
-ul li input[type=text] {
+/* ul li input[type=text] {
   display:none;
 }
 
@@ -200,20 +196,4 @@ ul li.editMode label {
 .router-link-active{
   color: #CF2323;
   background-color: #fafd77;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 90%}
-  50%{background-position:100% 11%}
-  100%{background-position:0% 90%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 90%}
-  50%{background-position:100% 11%}
-  100%{background-position:0% 90%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 90%}
-  50%{background-position:100% 11%}
-  100%{background-position:0% 90%}
-}
+} */ 
