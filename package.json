@@ -6,9 +6,11 @@
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "vercel": "vercel"
   },
   "dependencies": {
+    "framer-motion": "^10.2.5",
     "gh-pages": "^4.0.0",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"
